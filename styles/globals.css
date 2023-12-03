@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* fonts */
+@font-face {
+  font-family: 'Gibson';
+  font-weight: normal;
+  font-style: normal;
+  src: url('/fonts/Gibson/Gibson-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Gibson';
+  font-weight: bold;
+  font-style: normal;
+  src: url('/fonts/Gibson/Gibson-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Gibson';
+  font-weight: lighter;
+  font-style: normal;
+  src: url('/fonts/Gibson/Gibson-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Gibson';
+  font-weight: normal;
+  font-style: italic;
+  src: url('/fonts/Gibson/Gibson-Italic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Gibson';
+  font-weight: bold;
+  font-style: italic;
+  src: url('/fonts/Gibson/Gibson-BoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Gibson';
+  font-weight: bold;
+  font-style: normal;
+  src: url('/fonts/Gibson/Gibson-SemiBold.ttf') format('truetype');
+}
+/*  */
+
+
+:root {
+  /* brand color  */
+  --color-blue-500: #401272; 
+  --color-gold-500: #e3b364;
+  --color-white-500: #ffffff;
+  --color-black-500: #333333;
+}
+
+body {
+  color: var(--color-black-500);
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: 'Gibson', sans-serif;
+}
+
+input[type=radio] {
+  min-width: 22px;
+}
