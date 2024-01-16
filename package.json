@@ -1,6 +1,6 @@
 {
-  "name": "adsmn-interview-assignment",
-  "version": "0.1.0",
+  "name": "gym-diet-plan-ai",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
